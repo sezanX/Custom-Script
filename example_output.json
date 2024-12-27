@@ -1,0 +1,15 @@
+
+{
+    "compName": "Sample Composition",
+    "frameRate": 30,
+    "duration": 5,
+    "layers": [
+        {
+            "name": "Sample Layer",
+            "type": "Text Layer",
+            "properties": {
+                "position": [{"time": 0, "value": [960, 540]}]
+            }
+        }
+    ]
+}
