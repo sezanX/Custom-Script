@@ -1,14 +1,26 @@
-
 {
-    "compName": "Sample Composition",
-    "frameRate": 30,
-    "duration": 5,
+    "compName": "MyComposition",
+    "frameRate": 24,
+    "duration": 10,
+    "width": 1920,
+    "height": 1080,
     "layers": [
         {
-            "name": "Sample Layer",
-            "type": "Text Layer",
+            "name": "Layer 1",
+            "type": "AVLayer",
             "properties": {
-                "position": [{"time": 0, "value": [960, 540]}]
+                "position": [
+                    { "time": 0, "value": [960, 540], "interpolation": { "inType": 6613, "outType": 6613 } },
+                    { "time": 1, "value": [970, 550], "interpolation": { "inType": 6613, "outType": 6613 } }
+                ],
+                "rotation": [
+                    { "time": 0, "value": 0, "interpolation": { "inType": 6613, "outType": 6613 } },
+                    { "time": 1, "value": 45, "interpolation": { "inType": 6613, "outType": 6613 } }
+                ],
+                "scale": [
+                    { "time": 0, "value": [100, 100], "interpolation": { "inType": 6613, "outType": 6613 } },
+                    { "time": 1, "value": [120, 120], "interpolation": { "inType": 6613, "outType": 6613 } }
+                ]
             }
         }
     ]
